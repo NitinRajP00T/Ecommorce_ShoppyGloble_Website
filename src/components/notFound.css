@@ -1,0 +1,57 @@
+.notfound_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    gap: 2rem;
+}
+
+.notfound_content {
+    max-width: 600px;
+    margin: 0;
+}
+
+.notfound_content h1 {
+    font-size: 5rem;
+    color: #e74c3c;
+    margin: 0;
+}
+
+.notfound_content h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.notfound_content p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+}
+
+.home_button {
+    background-color: #3498db;
+    color: #060606;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.home_button:hover {
+    background-color: #090506b6;
+}
+
+.notfound_image img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.notfound_image {
+    display: none;
+}
